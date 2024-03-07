@@ -16,7 +16,6 @@ Basicamente, estamos usando um get em uma API pública em uma pequena aplicaçã
 * cliente
 
 
-
 1. (01/03/2024) Definição de Milestone
    Para 31 de Março
    - CRUD
