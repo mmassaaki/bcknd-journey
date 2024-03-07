@@ -1,3 +1,6 @@
+
+4. (06/03/2024) Projeto ajustado sem substituição da biblioteca do Google. Criado o pom.xml, a pasta principal foi definida como sources root, foi baixado o jar do gson e a lib foi apontada manualmente. Depois disso, o projeto funcionou adequadamente
+
 3. (05/03/2024)
    Dificuldades de testar o projeto em razão da lib gson do google. Coverti o pacote para maven e ainda assim o quarkus não reconhece a lib. Posteriormente, irei substituir o pacote por um jackson smallrye
 
