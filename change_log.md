@@ -1,4 +1,6 @@
 
+5. (07/03/2024) Análise arquitetural e de componentes
+
 4. (06/03/2024) Projeto ajustado sem substituição da biblioteca do Google. Criado o pom.xml, a pasta principal foi definida como sources root, foi baixado o jar do gson e a lib foi apontada manualmente. Depois disso, o projeto funcionou adequadamente
 
 3. (05/03/2024)
