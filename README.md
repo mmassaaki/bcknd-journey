@@ -11,10 +11,13 @@ O objetivo final é estarmos com as habilidades em programação afiadas para ev
 
 O presente projeto foi apenas adaptado de um tutorial. O principal trabalho aqui foi fazê-lo funcionar e, principalmente, explicá-lo.
 
-Trata-se de um consumidor de API (Application Programming Interface), ou seja, uma aplicação que consome um recurso disponibilizado por terceiros de forma que a implementação é focada na construção nova e não naquilo que já está disponibilizado. Trata-se do uso de encapsulamento, que do lado do provedor, garante a proteção contra modificações indesejadas e do lado do consumidor, a possibilidade de usar artefatos prontos. No projeto corrente, houve apenas a necessidade de criar uma interface, utilizar um pacote de consumo de json e outro de conexão http em uma arquitetura clássica de controlador, serviço e modelo. Segue explicação detalhada.
+Trata-se de um consumidor de API (Application Programming Interface), ou seja, uma aplicação que consome um recurso disponibilizado por terceiros de forma que a implementação é focada na construção nova e não naquilo que já está disponibilizado. Trata-se do uso de encapsulamento, que do lado do provedor, garante a proteção contra modificações indesejadas e do lado do consumidor, a possibilidade de usar artefatos prontos.  
+No projeto corrente, houve apenas a necessidade de criar uma interface, utilizar um pacote de consumo de json, a classe Scanner e outro de conexão http em uma arquitetura clássica de controlador, serviço e modelo. Segue explicação detalhada.
 
 ### Arquitetura
 
 ### Biblioteca Google Gson para consumo de Json
 
 ### Método HttpURLConnection
+
+### Classe Scanner
