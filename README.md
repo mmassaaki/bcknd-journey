@@ -16,6 +16,15 @@ No projeto corrente, houve apenas a necessidade de criar uma interface, utilizar
 
 ### Arquitetura
 
+O mini-projeto não seguiu um design pattern nominado. Trata-se de uma arquitetura de camadas genérica, mas que separa bem as responsabilidades e é facilmente legível. Temos o pacote main, que pode ser estabelecido como a camada de apresentação, o pacote serviço, que é onde temos a lógica de negócio e o pacote domínio, que tem as entidades e objetos principais da abstração de negócio.
+
+É importante praticar a modelagem de aplicações em padrões de mercado, pois há grandes vantagens ao utilizá-los:
+
+* Há mais legibilidade, o que facilita o trabalho em equipe e continuidade do ciclo de vida do softer nas sucessões de desenvolvedores 
+* Melhor separação de responsabilidade, resultando em facildiade de desacoplar os componentes  
+* Facilita a manutenção do código  
+* Facilita a escalabilidade da aplicação
+
 ### Biblioteca Google Gson para consumo de Json
 
 ### Método HttpURLConnection
