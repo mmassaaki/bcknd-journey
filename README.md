@@ -1,7 +1,7 @@
 # bcknd-journey
 aprendizado backend
 
-Entre 01/03 à 30/09/2024, o compromisso é de ter estudos focados de qualidade em programação.
+Entre 01/03 à 30/09/2024, o compromisso é de ter estudos de qualidade, que visem um aperfeiçoamento rápido, focado nos 20% de conhecimento que entreguem a maior parte do realizado dia à dia do programador.
 
 A parte de backend estará originada neste repositório, a parte de frontend ficará à cargo do Miguel
 
