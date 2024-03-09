@@ -12,7 +12,7 @@ O mini-projeto não seguiu um design pattern nominado. Trata-se de uma arquitetu
 É importante praticar a modelagem de aplicações em padrões de mercado, pois há grandes vantagens ao utilizá-los:
 
 * Há mais legibilidade, o que facilita o trabalho em equipe e continuidade do ciclo de vida do softer nas sucessões de desenvolvedores 
-* Melhor separação de responsabilidade, resultando em facildiade de desacoplar os componentes  
+* Melhor separação de responsabilidade, resultando em facilidade de desacoplar os componentes  
 * Facilita a manutenção do código  
 * Facilita a escalabilidade da aplicação
 
