@@ -1,3 +1,4 @@
+6 - (09/03/2024) Começando o mini-projeto de previsão do tempo por cidade
 
 5 - (07/03/2024) Análise arquitetural e de componentes
 
