@@ -1,4 +1,4 @@
-package br.com.buscador;
+package br.com;
 
 import java.io.BufferedReader;
 import java.io.IOException;

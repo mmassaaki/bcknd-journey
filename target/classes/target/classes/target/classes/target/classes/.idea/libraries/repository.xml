@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="repository">
+    <CLASSES>
+      <root url="file://$MAVEN_REPOSITORY$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="jar://$MAVEN_REPOSITORY$/gson-2.10.1.jar!/" />
+    </excluded>
+    <jarDirectory url="file://$MAVEN_REPOSITORY$" recursive="false" />
+  </library>
+</component>

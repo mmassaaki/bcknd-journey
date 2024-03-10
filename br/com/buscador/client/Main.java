@@ -9,7 +9,7 @@ public class Main {
         String cep = new Scanner(System.in).nextLine();
         Endereco endereco = ServicoCep.buscaEnderecoPelo(cep);
 
-        System.out.println("Logradouro: " + endereco.getLogradouro());
+            System.out.println("Logradouro: " + endereco.getLogradouro());
         System.out.println("Bairro: " + endereco.getBairro());
         System.out.println("Localidade: " + endereco.getLocalidade());
     }

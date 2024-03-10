@@ -1,7 +1,7 @@
 package br.com.buscador.servico;
-import br.com.buscador.Util;
-import br.com.buscador.dominio.*;
 
+import br.com.Util;
+import br.com.buscador.dominio.Endereco;
 import com.google.gson.Gson;
 
 import java.io.BufferedReader;
