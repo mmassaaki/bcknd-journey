@@ -10,4 +10,4 @@ O objetivo final é estarmos com as habilidades em programação afiadas para ev
 ## Lista de mini-projetos
 
 * [BuscaCEP](https://github.com/mmassaaki/bcknd-journey/blob/main/buscaCEP.md)
-
+* [Clima](https://github.com/mmassaaki/bcknd-journey/blob/main/clima.md)
