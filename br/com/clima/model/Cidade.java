@@ -1,24 +1,28 @@
-package br.com.marvel.model;
-import jakarta.*;
+package br.com.clima.model;
 
-@XmlRootElement
-public class CidadeModel {
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
+
+@JacksonXmlRootElement
+public class Cidade {
+    @JacksonXmlProperty(localName = "cidade")
+    String cidade;
+    @JacksonXmlProperty(localName = "nome")
     String nome;
+    @JacksonXmlProperty(localName = "uf")
     String UF;
+    @JacksonXmlProperty(localName = "id")
     Integer id;
 
-    @XMLElement
-    public void setNome(String nome) {
-        this.nome = nome;
+    public String getNome() {
+        return this.nome;
     }
 
-    @XMLElement
-    public void setUF(String UF) {
-        this.UF = UF;
+    public String getUF() {
+        return this.UF;
     }
 
-    @XMLElement
-    public void setId(String id) {
-        this.id = id;
+    public Integer getId() {
+        return this.id;
     }
 }

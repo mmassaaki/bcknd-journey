@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/br/com/buscador/bknd-journey.iml" filepath="$PROJECT_DIR$/br/com/buscador/bknd-journey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bknd-journey.iml" filepath="$PROJECT_DIR$/bknd-journey.iml" />
     </modules>
   </component>
 </project>

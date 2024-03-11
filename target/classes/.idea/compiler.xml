@@ -9,5 +9,8 @@
         <module name="bknd-journey" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bcknd-journey" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
