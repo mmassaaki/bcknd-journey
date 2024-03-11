@@ -1,3 +1,5 @@
+7 - (11/03/2024) Testadas as classes do projeto de clima. Por enquanto, digita-se o nome da cidade e ele retorna um range de cidades por UF e ID. O próximo objetivo é ocultar o ID, numerar e fazer a pergunta de qual cidade o usuário quer escolher, para fazer uma segunda consulta e trazer o clima atual (mínima, máxima e situação)
+
 6 - (09/03/2024) Começando o mini-projeto de previsão do tempo por cidade
 
 5 - (07/03/2024) Análise arquitetural e de componentes
