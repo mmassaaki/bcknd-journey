@@ -3,26 +3,39 @@ package br.com.clima.model;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
+import java.util.Date;
+
 @JacksonXmlRootElement
-public class Cidade {
-    @JacksonXmlProperty(localName = "cidade")
-    String cidade;
+public class Previsao {
     @JacksonXmlProperty(localName = "nome")
     String nome;
     @JacksonXmlProperty(localName = "uf")
-    String UF;
-    @JacksonXmlProperty(localName = "id")
-    Integer id;
+    String uf;
+    @JacksonXmlProperty(localName = "cidade")
+    String cidade;
+    @JacksonXmlProperty(localName = "dia")
+    Date dia;
+    @JacksonXmlProperty(localName = "tempo")
+    String tempo;
+    @JacksonXmlProperty(localName = "maxima")
+    Integer maxima;
 
-    public String getNome() {
-        return this.nome;
+    @JacksonXmlProperty(localName = "minima")
+    Integer minima;
+
+    public Date getDia() {
+        return dia;
     }
 
-    public String getUF() {
-        return this.UF;
+    public String getTempo() {
+        return tempo;
     }
 
-    public Integer getId() {
-        return this.id;
+    public Integer getMaxima() {
+        return maxima;
+    }
+
+    public Integer getMinima() {
+        return minima;
     }
 }

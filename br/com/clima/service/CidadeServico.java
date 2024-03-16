@@ -13,7 +13,7 @@ public class CidadeServico {
     static String webService = "http://servicos.cptec.inpe.br/XML/listaCidades?city=";
     static int codigoSucesso = 200;
     public static Cidades buscaCidadePorNome(String nome) throws Exception {
-        String chamada = webService + nome;
+        String chamada = webService + nome.replaceAll(" ", "%20");
 
         try {
             URL url = new URL(chamada);

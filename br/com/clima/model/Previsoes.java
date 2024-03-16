@@ -5,12 +5,12 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 
 import java.util.List;
 
-public class Cidades {
+public class Previsoes {
     @JacksonXmlProperty(localName = "cidade")
     @JacksonXmlElementWrapper(useWrapping = false)
-    private List<Cidade> cidades;
+    private List<Previsao> previsoes;
 
-    public List<Cidade> getCidades() {
-        return cidades;
+    public List<Previsao> getPrevisoes() {
+        return previsoes;
     }
 }
