@@ -7,6 +7,14 @@ import java.util.List;
 
 public class Previsoes {
     @JacksonXmlProperty(localName = "cidade")
+    private String cidade;
+    @JacksonXmlProperty(localName = "nome")
+    private String nome;
+    @JacksonXmlProperty(localName = "uf")
+    private String uf;
+    @JacksonXmlProperty(localName = "atualizacao")
+    private String atualizacao;
+    @JacksonXmlProperty(localName = "previsao")
     @JacksonXmlElementWrapper(useWrapping = false)
     private List<Previsao> previsoes;
 
